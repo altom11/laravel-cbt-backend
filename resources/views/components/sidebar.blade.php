@@ -32,5 +32,17 @@
                 </ul>
             </li>
 
+            <li class="menu-header">Question</li>
+            <li class="nav-item dropdown">
+                <a href="#"
+                    class="nav-link has-dropdown"><i class="fa-solid fa-file-pen"></i><span>Question</span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="nav-link"
+                            href="{{ route('soal.index') }}">All Questions</a>
+                    </li>
+                </ul>
+            </li>
+
     </aside>
 </div>
